@@ -76,7 +76,7 @@ to run unit tests on all involved Python scripts.
 
 ## Authors
 
-* **Jan-Hendrik Lorenz** - **Florian Wörz** Institute of Theoretical Computer Science, Ulm University, Germany
+* **Jan-Hendrik Lorenz** - **Florian Wörz** (Institute of Theoretical Computer Science, Ulm University, Germany)
 
 If you use _concealSATgen_ in scientific work, please cite:
 
