@@ -5,9 +5,11 @@ Generates hard satisfiable CNF formulas in DIMACS format with a known solution. 
 
 concealSATgen is a tool written in Python that allows the generation of hard satisfiable CNF formulas in DIMACS format with a known solution.
 The tool implements the clause distribution control (CDC) algorithm proposed by [Barthel et al. 2002] and further elaborated in [Balyo & Chrpa 2018].
+
 Let $k$ denote the width of the wanted clauses. Furthermore let $r$ denote the clause-to-variable ratio.
 Let $\alpha$ be a given solution that one wants to hide in the generated formula.
 For $i = 1, \dots, k$ the parameter $0 < p_i < 1$ represent the probability of adding a randomly sampled $k$-clause which has exactely i satisfied literals under $\alpha$.
+
 A popular way to choose the parameters $p_i$ is the $q$-hidden algorithm of [Jia, Moore & Strain 2005] that defines $p_i = q^{i}$ for a given parameter $q$.
 
 ## Getting Started
