@@ -6,11 +6,11 @@ Generates hard satisfiable CNF formulas in DIMACS format with a known solution. 
 concealSATgen is a tool written in Python that allows the generation of hard satisfiable CNF formulas in DIMACS format with a known solution.
 The tool implements the clause distribution control (CDC) algorithm proposed by [Barthel et al. 2002] and further elaborated in [Balyo & Chrpa 2018].
 
-Let $k$ denote the width of the wanted clauses. Furthermore let $r$ denote the clause-to-variable ratio.
-Let $\alpha$ be a given solution that one wants to hide in the generated formula.
-For $i = 1, \dots, k$ the parameter $0 < p_i < 1$ represent the probability of adding a randomly sampled $k$-clause which has exactely i satisfied literals under $\alpha$.
+Let <img src="https://render.githubusercontent.com/render/math?math=k"> denote the width of the wanted clauses. Furthermore let <img src="https://render.githubusercontent.com/render/math?math=r"> denote the clause-to-variable ratio.
+Let <img src="https://render.githubusercontent.com/render/math?math=\alpha"> be a given solution that one wants to hide in the generated formula.
+For <img src="https://render.githubusercontent.com/render/math?math=i=1,\dots,k"> the parameter <img src="https://render.githubusercontent.com/render/math?math=0<p_i<1"> represent the probability of adding a randomly sampled <img src="https://render.githubusercontent.com/render/math?math=k">-clause which has exactely <img src="https://render.githubusercontent.com/render/math?math=i"> satisfied literals under <img src="https://render.githubusercontent.com/render/math?math=\alpha">.
 
-A popular way to choose the parameters $p_i$ is the $q$-hidden algorithm of [Jia, Moore & Strain 2005] that defines $p_i = q^{i}$ for a given parameter $q$.
+A popular way to choose the parameters <img src="https://render.githubusercontent.com/render/math?math=p_i"> is the <img src="https://render.githubusercontent.com/render/math?math=q">-hidden algorithm of [Jia, Moore & Strain 2005] that defines <img src="https://render.githubusercontent.com/render/math?math=p_i=q^{i}"> for a given parameter <img src="https://render.githubusercontent.com/render/math?math=q">.
 
 ## Getting Started
 
@@ -48,9 +48,9 @@ After `python3 generator.py` you can specify the following flags:
 The parameters `n` and `m` are required.
 
 If the other parameters are not specified, the program will use the following default values:
-* $k = 3$.
-* $p_i = 1.0$ for all $i = 1, \dots, k$.
-* $s = 42$.
+* <img src="https://render.githubusercontent.com/render/math?math=k=3">.
+* <img src="https://render.githubusercontent.com/render/math?math=p_i=1.0"> for all <img src="https://render.githubusercontent.com/render/math?math=i=1,\dots,k">.
+* <img src="https://render.githubusercontent.com/render/math?math=s=42">.
 * A random hidden solution will be generated according to the given seed.
 * `o = './'` (that is the cnf-file will be generated in the directory of `generator.py`).
 
