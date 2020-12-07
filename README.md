@@ -14,7 +14,7 @@ A popular way to choose the parameters <img src="https://render.githubuserconten
 
 ## Getting Started
 
-# Example
+### Example
 
 To generate a 3-CNF formula with 10 variables and 4 clauses according to the above model, call
 ```
@@ -34,7 +34,7 @@ p cnf 10 4
 -1 -9 5 0
 ```
 
-# Parameters
+### Parameters
 
 After `python3 generator.py` you can specify the following flags:
 * `-n` (int): Specifies the number of variables in the formula.
@@ -54,7 +54,7 @@ If the other parameters are not specified, the program will use the following de
 * A random hidden solution will be generated according to the given seed.
 * `o = './'` (that is the cnf-file will be generated in the directory of `generator.py`).
 
-# Limitations
+### Limitations
 
 Important Note: The generator does as of now not really check whether the given parameters can yield a formula. E.g. calling
 ```
@@ -66,7 +66,7 @@ does not terminate (quickly) as there cannot be a 3 CNF formula with 10 variable
 
 Python3
 
-## Running the tests
+### Running the tests
 
 Open a terminal window in the root folder of the project and type
 ```
