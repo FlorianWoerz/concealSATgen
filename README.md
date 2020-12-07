@@ -1,5 +1,7 @@
 # concealSATgen
-Generates hard satisfiable CNF formulas in DIMACS format with a known solution. Authors: Jan-Hendrik Lorenz and Florian Wörz.
+Generates hard satisfiable CNF formulas in DIMACS format with a known solution.
+
+Authors: Jan-Hendrik Lorenz and Florian Wörz.
 
 ## About
 
