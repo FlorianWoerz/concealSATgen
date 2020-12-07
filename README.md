@@ -42,7 +42,7 @@ After `python3 generator.py` you can specify the following flags:
 * `-n` (int): Specifies the number of variables in the formula.
 * `-m` (int): Specifies the number of clauses in the formula.
 * `-k` (int): Specifies the width <img src="https://render.githubusercontent.com/render/math?math=k"> of the formula.
-* `-p` (int int ... int): Specifies the values <img src="https://render.githubusercontent.com/render/math?math=p_1,\dots,p_k"> as described above.
+* `-p` (float float ... float): Specifies the values <img src="https://render.githubusercontent.com/render/math?math=p_1,\dots,p_k"> as described above.
 * `-s` (int): The seed to initialize the random number generator.
 * `-F` (str): The path to the file with contains the wanted hidden solution.
 * `-o` (str): The output-path to save the generated cnf-file.
