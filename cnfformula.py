@@ -39,9 +39,7 @@ class CNF(object):
 		
 		clause_list = [lit if truth else -lit for (truth, lit) in clause]
 		self.clauses.append(clause_list)
-
-
-
+		
 
 	def dimacs(self):
 		"""Converts the CNF file to the DIMACS format.
