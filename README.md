@@ -72,7 +72,7 @@ Python3
 
 Open a terminal window in the root folder of the project and type
 ```
-python3 tests/test_generator.py
+python -m unittest tests/test_generator.py
 ```
 to run unit tests on all involved Python scripts.
 
